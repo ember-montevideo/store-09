@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 101,
+      "name": "Johnny Walker Red",
+      "picture": "whisky.png",
+      "price": 30,
+      "isFeatured": false
+    },
+    {
+      "id": 102,
+      "name": "Johnny Walker Black",
+      "picture": "whisky.png",
+      "price": 40,
+      "isFeatured": false
+    },
+    {
+      "id": 103,
+      "name": "Johnny Walker Double Black",
+      "picture": "whisky.png",
+      "price": 50,
+      "isFeatured": true
+    }
+  ]
+}
