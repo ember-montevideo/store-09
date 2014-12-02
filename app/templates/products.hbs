@@ -1,1 +1,7 @@
+<h1>{{model.length}} Products</h1>
+
+{{#each product in model}}
+  <h2 {{bind-attr class=product.isFeatured }}>{{product.name}}</h2>
+{{/each}}
+
 {{outlet}}
