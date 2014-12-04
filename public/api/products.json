@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Famous Grouse",
+      "picture": "famous-grouse.png",
+      "price": 50,
+      "isFeatured": false
+    },
+    {
+      "id": 2,
+      "name": "Glenfiddich",
+      "picture": "glenfiddich.png",
+      "price": 50,
+      "isFeatured": false
+    },
+    {
+      "id": 3,
+      "name": "Jack Daniel's",
+      "picture": "jack-daniels.png",
+      "price": 50,
+      "isFeatured": false
+    },
+    {
+      "id": 4,
+      "name": "Jameson",
+      "picture": "jameson.png",
+      "price": 50,
+      "isFeatured": false
+    },
+    {
+      "id": 5,
+      "name": "Johnny Walker Black",
+      "picture": "jw-black.png",
+      "price": 50,
+      "isFeatured": false
+    },
+    {
+      "id": 6,
+      "name": "Johnny Walker Red",
+      "picture": "jw-red.png",
+      "price": 50,
+      "isFeatured": false
+    }
+  ]
+}

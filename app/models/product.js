@@ -1,15 +1,14 @@
 import DS from 'ember-data';
+import Ember from 'ember';
 
 export default DS.Model.extend({
   name: DS.attr('string'),
-  description: DS.attr('string'),
+  picture: DS.attr('string'),
   price: DS.attr('number'),
   isFeatured: DS.attr('boolean'),
 
-  purchasePrice: function() {
-    return this.get('price') * (this.get('isFeatured') ? 0.8 : 1.0);
-  }.property('price'),
-  imageUrl: function() {
-    return "/images/" + this.get('id') + ".png";
-  }.property()
+  purchasePrice: Ember.computed.alias('price'),
+  picturePath: function() {
+    return '/assets/images/' + this.get('picture');
+  }.property('picture')
 });

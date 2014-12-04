@@ -7,6 +7,9 @@ var app = new EmberApp({
     includePaths: [
       "bower_components/bootstrap-sass-official/assets/stylesheets"
     ]
+  },
+  fingerprint: {
+    exclude: ['assets/images']
   }
 });
 
