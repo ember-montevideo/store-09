@@ -1,1 +1,11 @@
+<h1>Labels</h1>
+
+{{input value=category}}
+
+{{#each product in model}}
+  <h3 {{bind-attr class=product.isFeatured }}>
+    {{link-to product.name "products.show" product}}
+  </h3>
+{{/each}}
+
 {{outlet}}
