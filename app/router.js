@@ -9,6 +9,7 @@ Router.map(function() {
   this.resource('products', function() {
     this.route('show', { path: ":product_id" });
   });
+  this.route('jameson');
 });
 
 export default Router;
